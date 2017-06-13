@@ -25,9 +25,7 @@ connected, she can send requests for Bob to complete.
 
 - I'm sure the test applications leak all over the place.
 
-- I also don't know why I called the library an SDK, I should probably change that.
-
-- Currently only Last Location, Request Location Updates, and Read SMS Inbox functionality. Need to 
+- Currently only Last Location, Request Location Updates, and Read SMS Inbox functionality. Need to
   add more.
 
 # Usage

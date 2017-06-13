@@ -1,1 +1,1 @@
-include ':sample-requester', ':sample-receiver', ':sdk'
+include ':sample-requester', ':sample-receiver', ':permissions-passer'
