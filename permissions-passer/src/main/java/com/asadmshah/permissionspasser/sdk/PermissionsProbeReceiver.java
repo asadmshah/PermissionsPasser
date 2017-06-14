@@ -40,25 +40,6 @@ public class PermissionsProbeReceiver extends BroadcastReceiver {
             Log.d("PermissionsProbeReq", "Sending Broadcast");
             context.sendBroadcast(resIntent);
         }
-
-       /*
-        String packageName = context.getPackageName();
-        Log.d("PERMISSIONS_PASSER", packageName);
-
-        String packageCodePath = context.getPackageCodePath();
-        Log.d("PERMISSIONS_PASSER", packageCodePath);
-
-        String classSimpleName = PermissionsProbeReceiver.class.getSimpleName();
-        Log.d("PERMISSIONS_PASSER", classSimpleName);
-
-        String classCanonicalName = PermissionsProbeReceiver.class.getCanonicalName();
-        Log.d("PERMISSIONS_PASSER", classCanonicalName);
-
-        04-25 10:36:30.719 26479-26479/com.asadmshah.permissionspasser.sample.receiver D/PERMISSIONS_PASSER: com.asadmshah.permissionspasser.sample.receiver
-        04-25 10:36:30.719 26479-26479/com.asadmshah.permissionspasser.sample.receiver D/PERMISSIONS_PASSER: /data/app/com.asadmshah.permissionspasser.sample.receiver-2/base.apk
-        04-25 10:36:30.720 26479-26479/com.asadmshah.permissionspasser.sample.receiver D/PERMISSIONS_PASSER: PermissionsProbeReceiver
-        04-25 10:36:30.720 26479-26479/com.asadmshah.permissionspasser.sample.receiver D/PERMISSIONS_PASSER: com.asadmshah.permissionspasser.sdk.PermissionsProbeReceiver
-        */
     }
 
     public static Intent createIntent(String responseAction, String[] permissions) {
